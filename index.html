@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html>
+<title>Magic Groove Cruise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styles.css">
+
+<body ng-controller="homeCtrl">
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top ">
+  <div class="w3-bar " id="myNavbar" style="background-color: #e3ba19">
+
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-calendar"></i> ABOUT</a>
+    <a href="#cabins" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-home"></i>CABINS</a>
+    <a href="#payment" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-credit-card-alt"></i>PAYMENT</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> REGISTRATION</a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+      <i class="fa fa-search"></i> -->
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#cabins" class="w3-bar-item w3-button" onclick="toggleFunction()">CABINS</a>
+    <a href="#payment" class="w3-bar-item w3-button" onclick="toggleFunction()">PAYMENT</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">REGISTRATION</a>
+    <a href="#" class="w3-bar-item w3-button"></a>
+    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-responsive" id="home">
+  <div class="w3-display-middle  w3-transparent  w3-large w3-responsive" style="">
+    <!-- <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity ">Paycation <span class="w3-hide-small">Experience</span> 2018</span> -->
+      <!-- <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity ">Paycation <span class="w3-hide-small">Experience</span> 2018</span> -->
+
+<!-- <img src="/img/high-res.png" alt="" class=" w3-image " style="width:75vw;height:80vh; "> -->
+
+  </div>
+  <br>
+
+  <!-- <img src="" class="w3-center w3-padding-large w3-#00000014 w3-border-radius
+       w3-xlarge w3-wide w3-animate-opacity w3-hide-small" alt="" style="width:200px;height:75px;"> -->
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64 w3-center " id="about">
+  <h1 class="w3-center">Trip Information</h1>
+  <!-- <p class="w3-center"><em>I love photography</em></p> -->
+  <h5>Magic 107.3 would like to personally invite you to cruise with us in 2018. This year’s cruise features 4 NEW ports – Long Beach, California, Cabo San Lucas, Mazatlán and Puerto Vallarta, Mexico! Cabo San Lucas and Puerto Vallarta feature extended hours in port, allowing you to relax and enjoy longer experiences in these all new ports!
+
+All of your favorite parties are back for 2018, including: Represent KC, White Linen, 70’s Soul, 80’s Night and more!
+    <br>
+    <br>
+     September 15-22 on the Carnival Splendor!</h5>
+
+<br>
+<br>
+
+<h3>CRUISE INFORMATION</h3>
+
+<p>
+Mexican essence in a vacation hotel with luxury services and excellent facilities. What more can you ask for?
+<br>
+<br>
+The Barceló Maya Tropical 5-star hotel is an oasis of fun and relaxation in the heart of Caribbean paradise. This luxury resort offers an extraordinary All-Inclusive experience. The fantastic hotel facilities feature green areas, a pool with hot tub, kid’s zones, games pool, gym, shopping center and an excellent U-Spa. Kids can also relax at the U-Kids Spa, and all guests can participate in sports like tennis, paddle tennis, basketball, snorkeling, kayaking or windsurfing. At night, they can enjoy the lively nightlife at the hotel.
+<br>
+<br>
+Located on one of the most impressive beaches of the Caribbean and surrounded by the legendary beauty of the Riviera Maya, the Barceló Maya Palace 5-star hotel is a spectacular luxury resort with exclusive services. All of its rooms are Junior Suites or Suites, all of which offer luxury details and comforts to guarantee an extraordinary experience.
+<br>
+<br>
+Who wouldn’t want to spend a few days in a resort with the Caribbean Sea as the backdrop?
+</p>
+
+<br>
+<br>
+  <div class="w3-row w3-center">
+    <!-- <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class=""></i></b></p><br>
+      <img src="http://paycationpro.yolasite.com/resources/Traverus%20Global%20Logo-01.png.opt495x198o0%2C0s495x198.png" class="w3-round w3-image w" alt="Photo of Me" width="500" height="333">
+    </div> -->
+
+    <!-- <div class="">
+      <img src="http://paycationpro.yolasite.com/resources/Traverus%20Global%20Logo-01.png.opt495x198o0%2C0s495x198.png" alt="">
+    </div> -->
+
+    <!-- Hide this text on small devices -->
+    <!-- <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p></p>
+    </div> -->
+
+
+    <h1> Iternerary and Events</h1>
+
+
+      <table class="w3-table w3-center w3-bordered w3-border">
+      <tr class='w3-light-blue'>
+        <th>Day</th>
+        <th>Port</th>
+        <th>Events</th>
+      </tr>
+      <tr>
+        <td>Saturday 9/15</td>
+        <td>Long Beach</td>
+        <td>Represent KC</td>
+      </tr>
+      <tr>
+        <td>Sunday 9/16</td>
+        <td>Sea Day</td>
+        <td>White Linen Night </td>
+      </tr>
+      <tr>
+        <td>Monday 9/17</td>
+        <td>Cabo</td>
+        <td>No party, After Dinner Magic 107.3 Takes Over Night Club</td>
+      </tr>
+      <tr>
+        <td>Tuesday 9/18</td>
+        <td>Mazatlan</td>
+        <td>Come As You Are Party </td>
+      </tr>
+      <tr>
+        <td>Wednesday 9/19</td>
+        <td>Puerto Vallarta</td>
+        <td>No party, After Dinner Magic 107.3 Takes Over Comedy Club</td>
+      </tr>
+      <tr>
+        <td>Thursday 9/20</td>
+        <td>Sea Day</td>
+        <td>70’s Soul Party</td>
+      </tr>
+      <tr>
+        <td>Friday 9/21</td>
+        <td>Sea Day</td>
+        <td>80's Party</td>
+      </tr>
+      </table>
+
+  </div>
+  <br>
+  <br>
+  <br>
+
+  <div class=" w3-center w3-content w3-responsive" id="cabins" >
+    <table class="w3-table w3-striped  w3-center w3-responsive " >
+      <br>
+      <br>
+      <br>
+<h1>Barcelo Maya Tropical / Colonial</h1>
+<h6>Cabin Category And Pricing: All Prices Based On Occupancy</h6>
+<tr class="w3-light-blue">
+  <th>Cabin CATEGORY</th>
+  <th>Single <br>(1 ADULT)</th>
+  <th>Double <br>(2 ADULTS)</th>
+  <th>Triple/Quad<br>(3 ADULTS)</th>
+  <th>Child 2-12</th>
+
+</tr>
+<tr>
+  <td>SUPERIOR
+
+  </td>
+    <td>$537.00</td>
+    <td>$348.00 PER PERSON</td>
+    <td>$339.00 PER PERSON</td>
+    <td>$204.00 PER CHILD</td>
+
+
+
+</tr>
+
+<tr>
+  <td>*Cost Per Additional Night</td>
+  <td>$179.00</td>
+  <td>$116.00 PER PERSON</td>
+  <td>$113.00 PER PERSON</td>
+  <td>$68.00 PER CHILD</td>
+</tr>
+
+<tr>
+  <td>JUNIOR SUITE OCEAN FRONT PREMIUM LEVEL</td>
+  <td>$849.00</td>
+  <td>$528.00 PER PERSON</td>
+  <td>$519.00 PER PERSON</td>
+  <td>204.00 PER CHILD</td>
+</tr>
+
+<td>*Cost Per Additional Night</td>
+<td>$283.00</td>
+<td>$176.00 PER PERSON</td>
+<td>$173.00 PER PERSON</td>
+<td>$68.00 PER CHILD</td>
+</tr>
+
+
+</table>
+<br>
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" id="myBtn">Premium Amenities - Click Here</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content w3-animate-top w3-card-4">
+    <span class="close">&times;</span>
+    <p>The Following service - and more - are included:
+<ul>
+  <li>Personalized check-in and check-out in the exclusive Premium Level area</li>
+  <li>Exclusive concierge service for Premium Level guests</li>
+  <li>Room with the best views in the Premium Level area</li>
+  <li>Welcome gifts in the room upon arrival (grapes, bottle of sparkling house wine)</li>
+  <li>Pool towels in the room</li>
+  <li>VIP minibar (sodas, water, domestic beer and snacks)</li>
+  <li>Superior toiletry items</li>
+  <li>Turn down service</li>
+  <li>Priority when making reservations at A La Carte restaurants (unlimited reservations: subject to availability of the restaurant chosen)</li>
+  <li>Exclusive use of the Premium Level Lounge with use of newspapers, books, board games, international beverages, canapes, continental breakfast and free internet. Service available from 7am to 11pm</li>
+  <li>Premium drinks in all hotel bars and restaurants</li>
+  <li>Free local calls</li>
+  <li>Express laundry service at the normal rate</li>
+  <li>Room Service</li>
+  <li>20% discount in spa and beuty salon services (Some restrictions may apply. The discount percentage may vary by hotel)</li>
+  <li>10% discount at Barcelo gift shops</li>
+  <li>Free Wi-Fi access in allocated areas of each hotel (two passwords per room, one device at a time)</li>
+  <li>Access to the Hydrotherapy circuit at the Spa</li>
+
+</ul>
+    </p>
+  </div>
+
+</div>
+
+  </div>
+
+<br>
+<br>
+
+
+  <div class="w3-center w3-content w3-responsive">
+    <table class="w3-table w3-striped  w3-center w3-responsive">
+<h1>Barcelo Maya Palace</h1>
+<h6>Cabin Category And Pricing: All Prices Based On Occupancy</h6>
+<tr class="w3-light-blue">
+  <th>Cabin CATEGORY</th>
+  <th>Single <br>(1 ADULT)</th>
+  <th>Double <br>(2 ADULTS)</th>
+  <th>Triple/Quad<br>(3 ADULTS)</th>
+  <th>Child 2-12</th>
+<br>
+</tr>
+<tr>
+  <td>JUNIOR SUITE
+
+  </td>
+    <td>$702.00</td>
+    <td>$513.00 PER PERSON</td>
+    <td>$504.00 PER PERSON</td>
+    <td>$255.00 PER CHILD</td>
+
+
+
+</tr>
+
+<tr>
+  <td>*Cost Per Additional Night</td>
+  <td>$234.00</td>
+  <td>$171.00 PER PERSON</td>
+  <td>$168.00 PER PERSON</td>
+  <td>$85.00 PER CHILD</td>
+</tr>
+
+<td>JUNIOR SUITE POOL VIEW PREMIUM LEVEL</td>
+
+<td>$1,014.00</td>
+<td>$657.00 PER PERSON</td>
+<td>$648.00 PER PERSON</td>
+<td>255.00 PER CHILD</td>
+
+<tr>
+  <td>*Cost Per Additional Night</td>
+  <td>$338.00</td>
+  <td>$232.00 PER PERSON</td>
+  <td>$229.00 PER PERSON</td>
+  <td>$85.00 PER CHILD</td>
+</tr>
+
+<td style="color: red">JUNIOR SUITE OCEAN FRONT PREMIUM LEVEL -
+  <br>
+  SOLD OUT</td>
+
+<td>$1,152.00</td>
+<td>$723.00 PER PERSON</td>
+<td>$714.00 PER PERSON</td>
+<td>$255.00 PER CHILD</td>
+
+<tr>
+  <td style="color: red">*Cost Per Additional Night
+  <br>
+  SOLD OUT</td>
+
+  <td>$384.00</td>
+  <td>$241.00 PER PERSON</td>
+  <td>$238.00 PER PERSON</td>
+  <td>$85.00 PER CHILD</td>
+</tr>
+
+
+
+</table>
+<br>
+<button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-black" id="myBtn1">Premium Amenities - Click Here</button>
+
+<!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content w3-animate-top w3-card-4">
+    <span class="close1">&times;</span>
+    <p>The Following service - and more - are included:
+<ul>
+  <li>Personalized check-in and check-out in the exclusive Premium Level area</li>
+  <li>Exclusive concierge service for Premium Level guests</li>
+  <li>Room with the best views in the Premium Level area</li>
+  <li>Welcome gifts in the room upon arrival (petits fours and a bottle of sparkling house wine)</li>
+  <li>Pool towels in the room</li>
+  <li>VIP minibar (sodas, water, domestic beer and snacks)</li>
+  <li>Superior toiletry items</li>
+  <li>Turn down service</li>
+  <li>Priority when making resercations at A La CArte restaurants (unlimited reservations: subject to availability of the restaurant chosen)</li>
+  <li>Exclusive use of the Premium Level Lounge with use of newspapers, books, board games, international beverages, canapes, continental breakfast and free internet. Service available from 7am to 11pm </li>
+  <li>Premium drinks in all hotel bars and restaurants</li>
+  <li>Free local calls</li>
+  <li>Free Wi-Fi access in allocated areas of each hotel (two passwords per room, one device at a time)</li>
+  <li>Express laundry service at the normal rate</li>
+  <li>Room Service</li>
+  <li>20% discount in spa and beuty salon services (Some restrictions may apply. The discount percentage may vary by hotel)</li>
+  <li>10% discount at Barcelo gift shops</li>
+  <li>Aromatherapy menu</li>
+  <li>Late check-out at no additional charge (subject to availability)</li>
+  <li>Bottle of ages 100% agave tequila (for 4-night minimum stays)</li>
+  <li>Logo Shop souvenir and surprise gift for children under 12 years of age ( for 4-night minimum stays )</li>
+  <li>Access to the Hydrotherapy circuit at the Spa, once daily for the entire duration of the stay</li>
+</ul>
+    </p>
+  </div>
+
+</div>
+
+  </div>
+<br>
+  <div class="">
+    <p>Inclusions of the above rates:
+Hotel accommodations for June 21, 2018 through June 24, 2018
+All-Inclusive meal plan
+Taxes and gratuities
+
+Please note:
+Child rates are only valid when a minimum of 2 paying ADULTS are sharing the room
+Mandatory round-trip shared ride transfer rate of $38.00 PER PERSON is NOT included in the hotel rate quoted above.
+You MUST add the above transfer rate to your per personal total hotel stay – $38.00 PER PERSON WILL be added to your total package price.
+A valid passport is required for each person travelling to Mexico
+
+*All rates are based on US dollars and are only valid for citizens of the United States. Prior notification of any NON-US citizens travelling with the group will be required and may be subject to increased rates.
+*All room bedding requests are based on availability at time of check-in and are NOT GUARANTEED. Only bedding requests that are guaranteed are those room categories that specify the bedding in the name of the room category when purchased (i.e. Deluxe Double Room or Deluxe King Bed Room).</p>
+  </div>
+  <!-- <p class="w3-large w3-center w3-padding-16">Im really good at:</p>
+  <p class="w3-wide"><i class="fa fa-camera"></i>Photography</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:90%">90%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-laptop"></i>Web Design</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:85%">85%</div>
+  </div>
+  <p class="w3-wide"><i class="fa fa-photo"></i>Photoshop</p>
+  <div class="w3-light-grey">
+    <div class="w3-container w3-padding-small w3-dark-grey w3-center" style="width:75%">75%</div>
+  </div> -->
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">White Linen Night</span><br>
+    <!-- ROOMS -->
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">70’s Soul Party </span><br>
+    <!-- Projects Done -->
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">Comedy Club Takeover </span><br>
+    <!-- Happy Clients -->
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">80’s Party</span><br>
+    <!-- Meetings -->
+  </div>
+</div>
+
+<!-- Second Parallax Image with rooms Text -->
+<div class="bgimg-2 w3-display-container ">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide"></span>
+  </div>
+</div>
+
+<!-- Container (rooms Section) -->
+<div class="w3-content w3-container w3-padding-64" >
+  <h2 class="w3-center">Live The Dream</h2>
+  <p class="w3-center"><em>Here are just some of the experiences you will have!</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m3">
+      <h3>70's Soul Party</h3>
+      <img src="/img/70's.jpg"; style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="70s Party">
+    </div>
+
+    <div class="w3-col m3">
+      <h3>80's Party</h3>
+      <img src="/img/80S.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="80's Party">
+    </div>
+
+    <div class="w3-col m3">
+      <h3>White Linen Party</h3>
+      <img src="/img/White Linen.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt=" White Linen Party">
+    </div>
+
+    <div class="w3-col m3">
+      <h3>Represent KC</h3>
+      <img src="/img/REPRESENT KC.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Represent KC">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-center w3-section">
+    <div class="w3-col m3">
+      <h3>Covered Pool</h3>
+      <img src="https://bloximages.chicago2.vip.townnews.com/cecildaily.com/content/tncms/assets/v3/editorial/9/79/9798c784-ec3d-11df-ac78-001cc4c03286/4cd9ab09a1c3c.image.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Covered Pool">
+    </div>
+
+    <div class="w3-col m3">
+      <h3>Spa</h3>
+      <img src="/img/splendorspa.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Spa">
+    </div>
+
+    <div class="w3-col m3">
+      <h3>Pool Deck</h3>
+      <img src="https://images.r.cruisecritic.com/features/ships/ccl-splendor-pool.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Pool Deck">
+    </div>
+
+    <div class="w3-col m3">
+      <h3>Cabin</h3>
+      <img src="https://travel.usnews.com/static-travel/images/cruises/1/662/carnival-cruise-lines_carnival-splendor_CABIN_9101.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Balcony Cabin">
+    </div>
+
+  </div>
+
+
+
+
+<div class="w3-content w3-container w3-padding-64" id="payment">
+
+
+
+  <center><h1>Payments</h1>
+  <p>A non-refundable deposit of $150.00 PER PERSON is required at the time of booking.
+    <br>
+    Any registrations submitted after 02-15-2018 will require a $250.00 PER PERSON deposit at the time of booking.</p>
+</center>
+
+
+
+<!-- <div class="w3-content w3-container w3-padding-64" id="about"> -->
+
+
+<table class="w3-table w3-centered w3-bordered w3-border">
+<tr class='w3-light-blue'>
+  <th>EASY PAYMENT PLAN</th>
+  <th>AMOUNT DUE</th>
+</tr>
+<tr>
+  <td>DUE AT REGISTRATION</td>
+  <td>$150.00 PER PERSON* </td>
+</tr>
+<tr>
+  <td>02-15-2018 </td>
+  <td>$150.00 PER PERSON </td>
+</tr>
+<tr>
+  <td>03-15-2018 </td>
+  <td>$150.00 PER PERSON </td>
+</tr>
+<tr>
+  <td>04-16-2018</td>
+  <td>FULL REMAINING BALANCE</td>
+</tr>
+</table>
+
+
+<p>*If you select to purchase the Travel Protection Plan, the payment is due at the time of your initial $150.00 per person non-refundable deposit. Please review the pricing information of travel protection below.
+
+FULL ROOM DEPOSIT REQUIRED AT TIME OF BOOKING – meaning if you and roommates are paying separately for one room, the full deposit PER PERSON is required to book the room.
+
+***Any registrations submitted after 02-15-2018 will require a $250.00 PER PERSON deposit at the time of booking.***
+
+*A valid passport is required for each person travelling to Mexico.</p>
+
+<br>
+<br>
+
+<center><h1>Travel Protection Plan</h1>
+
+  <table class="w3-table w3-centered w3-bordered w3-border">
+  <tr class='w3-light-blue'>
+    <th>If total booking cost PER ADULT is:</th>
+    <th>Cost PER ADULT</th>
+    <th>Cost PER CHILD 12 and under</th>
+  </tr>
+  <tr>
+    <td>UP TO $999.00 </td>
+    <td>$59.00  </td>
+    <td>$30.00</td>
+  </tr>
+  <tr>
+    <td>$1,000 – $1,499.99 </td>
+    <td>$94.00</td>
+    <td>$50.00 </td>
+  </tr>
+
+  </table>
+  <p>*If you select to purchase the Travel Protection Plan, the payment is due at the time of your initial $150.00 per person non-refundable deposit.
+<br>
+<br>
+*A valid passport is required for each person travelling to Mexico.</p>
+
+      </center>
+    <!-- </div> -->
+  </div>
+</div>
+
+<div class="">
+<div class="bgimg-3 w3-display-container ">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide"></span>
+  </div>
+</div>
+
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h1 class="w3-center">FLIGHTS AND TRANSPORTATION</h1>
+
+
+<ul>
+  <li>You are responsible for your transportation to Cancun, MX – airfare is NOT included</li>
+  <li>You must email your flight information to emilyspeers@xstreamtravel.com NO LATER than 04/16/2018 otherwise your transfers may be forfeited and at your own expense.</li>
+  <li>You need to arrive at the Cancun airport (CUN) on the date of your hotel check-in to utilize the included transfer service.</li>
+  <li>The included transfers can ONLY be utilized by those booked as a part of the Cancun Paycation Experience 2018 with Xstream Travel.</li>
+  <li>The included transfers can ONLY be utilized for transportation to/from the CUN airport/Barcelo Maya Complex on your purchased travel dates.</li>
+  <li>A valid passport is required for each person travelling to Mexico.</li>
+</ul>
+
+<br>
+<h1 class="w3-center">IMPORTANT INFORMATION TO KNOW</h1>
+
+<ul>
+  <li>A valid passport is required for each person travelling to Mexico</li>
+  <li>Airfare is NOT included.</li>
+  <li>Travel Protection Plan (Insurance) is optional and MUST be purchased at the time of booking/initial deposit – prices based on total package price, please see the pricing information above.</li>
+  <li>A $25.00 fee will be applied for EACH document replacement for both paper AND e-documents once original documents have been issued.</li>
+  <li>Any reservation changes after final payment date (04/16/2018) will incur a $50.00 change fee per change.</li>
+  <li>Guests booked at the Barcelo Maya Palace have access to all indoor/outdoor facilities across the Barcelo Maya Palace and Tropical/Colonial Hotels.</li>
+</ul>
+
+<br>
+
+<h1 class="w3-center">CANCELLATIONS</h1>
+
+     <p>All payments are non-refundable unless the Travel Protection Plan is purchased at the time of booking. The first deposit is non-refundable.</p>
+    <table class="w3-table w3-striped w3-centered w3-border">
+<tr class="w3-light-blue">
+  <th>BEGINNING DATE</th>
+  <th>PENALTY AMOUNT</th>
+  <!-- <th>Points</th> -->
+</tr>
+<tr>
+  <td>FIRST DEPOSIT
+    <br>
+      ADDITIONAL PAYMENTS
+    <br>
+
+  </td>
+  <td>NON-REFUNDABLE
+    <br>
+    NON-REFUNDABLE
+    <br>
+  </td>
+</tr>
+</table>
+  </div>
+
+
+  </div>
+
+<br>
+
+</div>
+
+
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with rooms Text -->
+<div class="bgimg-4 w3-display-container ">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide">Join Us!</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-24 w3-center" id="contact">
+  <br>
+  <br>
+  <h1 class="w3-center">Registration</h1>
+
+    <div class="w3-col m12 w3-panel ">
+      <div class="w3-large w3-margin-bottom ">
+
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 214-383-0122<br>
+        <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: emilyspeers@xstreamtravel.com<br>
+      </div>
+
+      <form action="https://formspree.io/emilyxstream@yahoo.com"
+      method="POST" >
+        <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="First Name" required name="First Name" required>
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Last Name" required name="Last Name" required>
+          </div>
+          <!-- <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
+          </div> -->
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Phone(XXX-XXX-XXXX)" required name="Phone" required>
+          </div>
+          <div class="w3-half">
+            <input class="w3-input w3-border" type="text" placeholder="Agent ID #" required name="AgentID" required>
+          </div>
+          <br>
+
+          <br>
+
+        </div>
+
+<br>
+  <h2>Billing Information</h2>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Agent ID #" required name="Agent ID Number" required>
+</div>
+<br>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Street Address" required name="Street Address" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="City" required name="City" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="State" required name="State" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Zip" required name="Zip" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Total number of ADULTS in rooms" required name="Adults" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Total number of KIDS in rooms" required name="Kids" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Total number of ADULTS wanting Travel Protection" required name="Travel Protection Adults" required>
+</div>
+<div class="w3-half">
+  <input class="w3-input w3-border" type="text" placeholder="Total number of KIDS wanting Travel Protection" required name="Travel Protection Kids" required>
+</div>
+
+<div class="w3-half">
+  <p class="w3-input w3-border" type="text" required > Cabin Category Selection
+  </p>
+</div>
+
+<div class="">
+
+  <select class="w3-input w3-border w3-large" type="text" name="Room Type" required>
+    <option value="Maya Tropical / Colonial - SUPERIOR"> Maya Tropical / Colonial - SUPERIOR</option>
+    <option value="Maya Tropical / Colonial - JUNIOR SUITE OCEAN FRONT"> Maya Tropical / Colonial - JUNIOR SUITE OCEAN FRONT</option>
+    <option value="Maya Palace - JUNIOR SUITE"> Maya Palace - JUNIOR SUITE</option>
+    <option value="Maya Palace - JUNIOR SUITE POOL VIEW"> Maya Palace - JUNIOR SUITE POOL VIEW</option>
+    <option value=">Maya Palace - JUNIOR SUITE OCEAN FRONT" > Maya Palace - JUNIOR SUITE OCEAN FRONT</option>
+  </select>
+
+</div>
+<div class="w3-half">
+<br>
+  <input class="w3-input w3-border" type="text" placeholder="# of Additional Nights"  name="Additional Nights">
+</div>
+
+
+</div>
+<br>
+<!-- <input class="w3-input w3-border" type="text" placeholder="If you are sharing/paying separately, etc.
+GUEST INFO for guests using this card " required name="Message"> -->
+<br>
+
+
+
+  <h4>If you are rooming with someone who is paying for their own portion with a separate credit card, please list their name(s) here</h4>
+  <input class="w3-input w3-border" type="text" placeholder="Name of person paying for their portion of room seperately" name="Name of person paying for portion of room" >
+
+
+<br>
+<h4>GUEST INFO for all guests using this card </h4>
+<br>
+
+<div class="">
+
+
+<div class="">
+  <input class="w3-input w3-border" type="text" placeholder="Guest #1 First and Last Name on Passport" required name="Guest 1" required>
+</div>
+<div class="">
+  <input class="w3-input w3-border" type="text" placeholder="Guest #1 Birthday (MM-DD-YYYY)" required name="Guest 1 Birthday" required>
+</div>
+<div class="">
+  <input class="w3-input w3-border" type="text" placeholder="Guest #1 Email Address" required name="Guest 1 Email" required>
+</div>
+</div>
+<br>
+
+
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Guest #2 First and Last Name on Passport" name="Guest 2">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Guest #2 Birthday (MM-DD-YYYY)" name="Guest 2 Birthday">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Guest #2 Email Address" name="Guest 2 Email">
+</div>
+
+<br>
+
+
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Guest #3 First and Last Name on Passport" name="Guest 3">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Guest #3 Birthday (MM-DD-YYYY)" name="Guest 3 Birthday">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Guest #3 Email Address" name="Guest 3 Email">
+</div>
+<br>
+
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Guest #4 First and Last Name on Passport" name="Guest 4">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Guest #4 Birthday (MM-DD-YYYY)" name="Guest 4 Birthday">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Guest #4 Email Address" name="Guest 4 Email">
+</div>
+<br>
+
+<h4>Additional Notes</h4>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Additional Notes or Remarks" name="Additional Notes">
+</div>
+
+<br>
+<h4>Card Information</h4>
+
+<div>
+<input class="w3-input w3-border" type="text" placeholder="Name on Credit Card" required name="Name on CC">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Credit Card Number" required name="CC Number">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Credit Card Expiration Date (MM/YY)" required name="CC Exp.">
+</div>
+<div class="">
+<input class="w3-input w3-border" type="text" placeholder="Credit Card Security Code (on back)" required name="CCV">
+</div>
+<br>
+
+
+
+<div class="w3-left">
+
+<p>
+  *By submitting my registration form I acknowledge that I have read and understand all cancellation penalties and administration fees that I will incur, should I decide to cancel my reservation.
+  <br>
+  *By submitting my registration I am also giving Xstream Travel the authorization to process payments on the credit card listed above.
+  <br>
+  *I understand that the trip and event fees are nonrefundable.
+  <br>
+  *I understand that in the event I need to cancel my trip all funds paid are nonrefundable.
+  <br>
+  *I understand that insurance is optional and I may choose to purchase insurance for an additional fee at the time of my registration.
+  <br>
+  *I understand that payments will be due on the dates listed on the Payment Schedule and will be deducted from the same card used for my registration.
+
+</p>
+</div>
+
+<button class="w3-button w3-black w3-center w3-section" type="submit">
+<i class="fa fa-paper-plane"></i> SUBMIT
+</button>
+<input type="hidden" name="_next" value="https://formspree.io/thanks" />
+<input type="hidden" name="_subject" value="New Barcelo Reservation" />
+</form>
+
+<h5>Please allow time for your card to be charged. You will receive a confirmation email within 72 business hours with complete details and your booking information once your payment is confirmed.</h5>
+</div>
+
+
+  </div>
+
+
+
+  </form>
+
+</div>
+
+
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-blue w3-padding-24 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up "></i>To the top</a>
+
+</footer>
+
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.js"></script>
+<script src="/app.js" charset="utf-8"></script>
+<script src="/homeCtrl.js" charset="utf-8"></script>
+<script src="/contactCtrl.js" charset="utf-8"></script> -->
+
+
+<script>
+// function myMap()
+// {
+//   myCenter=new google.maps.LatLng(41.878114, -87.629798);
+//   var mapOptions= {
+//     center:myCenter,
+//     zoom:12, scrollwheel: false, draggable: false,
+//     mapTypeId:google.maps.MapTypeId.ROADMAP
+//   };
+//   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+//
+//   var marker = new google.maps.Marker({
+//     position: myCenter,
+//   });
+//   marker.setMap(map);
+// }
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Get the modal
+var modal = document.getElementById('myModal');
+var modal1 = document.getElementById('myModal1');
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+var btn1 = document.getElementById("myBtn1");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+var span1 = document.getElementsByClassName("close1")[0];
+
+// When the user clicks the button, open the modal
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+    // modal1.style.display = "none";
+}
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+// window.onclick = function(event) {
+//     if (event.target == modal) {
+//         modal.style.display = "none";
+//     }
+// }
+
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+
+    }else if (event.target == modal) {
+        modal.style.display = "none";
+
+    }
+}
+
+</script>
+
+
+
+</body>
+</html>
