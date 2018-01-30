@@ -10,13 +10,13 @@ body, html {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 95%;
+    background-size: 100% 100%;
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url("./img/cruise.jpg");
-    min-height: 100vh;
+    background-image: url("./img/Cruise.jpg");
+    min-height: 700px;
 
 
     /*max-width: 100vw;*/
@@ -24,19 +24,19 @@ body, html {
 
 /* Second image (Rooms) */
 .bgimg-2 {
-    background-image: url("http://asiarewards.net/wp-content/uploads/2017/02/1348113_362_z.jpg");
-    min-height: 400px;
+    background-image: url("http://auxarchillndaletravels.info/images/Carnaval_Splendor.jpg");
+    min-height: 450px;
 
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("https://www.barcelo.com/en-us/images/246-swimming-pool-5-hotel-barcelo-maya-colonial_tcm21-126726.jpg");
+    background-image: url("https://c1.staticflickr.com/5/4087/5188015581_57ec30c8c3_b.jpg");
     min-height: 500px;
 }
 
 .bgimg-4 {
-    background-image: url( "https://i.ytimg.com/vi/kuJTdkgaNrQ/maxresdefault.jpg");
+    background-image: url( "https://dgln9niowovwz.cloudfront.net/uploads/image/filename/694/slideshow__SplendorShip1.jpg?w=240");
     min-height: 400px;
 }
 
@@ -90,7 +90,7 @@ body, html {
 
 .close:hover, .close1:hover,
 .close:focus, .close1:focus {
-    color: #000;
+    color: blue;
     text-decoration: none;
     cursor: pointer;
 }
