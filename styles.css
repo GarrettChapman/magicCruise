@@ -15,7 +15,7 @@ body, html {
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-    background-image: url("/img/Cruise.jpg");
+    background-image: url('../img/cruise.jpg');
     min-height: 700px;
 
 
